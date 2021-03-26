@@ -6,6 +6,8 @@ body{
   background: ${themes.light.backgroundColor};  
 @media (prefers-color-scheme:dark){
   background:${themes.dark.backgroundColor};
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   }
 }
 
