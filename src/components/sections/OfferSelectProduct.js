@@ -34,6 +34,77 @@ Offer Select was a new Ten-X platform to make an offer and purchase commercial r
 
         <div className="project-hero-image" id="offer-select-hero"></div>
 
+        <div className="content-space-80px"></div>
+
+        <div className="sectionBlurb">
+					<H2>The Problem</H2>
+					<p>
+          For Ten-X, we created a brand new way for our users to purchase commercial real estate online. The traditional auction process was initially taken from auction.com and wanted to bring a better connection between the buyers and sellers. A buyer can create an offer and negotiate with the seller to have a competitive advantage by having the highest offer.
+					</p>
+				</div>
+        <div className="content-space-80px"></div>
+       
+
+
+      
+
+        <div className="sectionBlurb">
+					<H2>Vision & Strategy</H2>
+					<p>
+          My primary role for the Offer Select release was to back up the UX designer and apply our visual language and “responsive” to the current product direction.
+					</p>
+				</div>
+
+        <div className="content-space-80px"></div>
+      
+        <div className="one-image-layout">
+					<img src="/images/productpages/tenx-offerselect/wireframes_offerselect1.png" />
+				</div>
+
+
+        <div className="one-image-layout">
+        <img src="/images/productpages/tenx-offerselect/wireframes_offerselect2.png" />
+				</div>
+
+
+        <div className="content-space-80px"></div>
+        <div className="content-space-80px"></div>
+
+
+        <SectionTitle>
+					<H2>The finished product</H2>
+				</SectionTitle>
+
+        <div className="content-space-80px"></div>
+
+        <div className="one-image-layout">
+        <img src="/images/productpages/tenx-offerselect/buyer-offerboard-desktop.png" />
+				</div>
+        <div className="content-space-80px"></div>
+        <div className="one-image-layout">
+        <img src="/images/productpages/tenx-offerselect/buyer-offerboard-teblet-mobile.png" />
+				</div>
+
+        <div className="content-space-80px"></div>
+
+
+<SectionTitle>
+  <H3>The finished product</H3>
+</SectionTitle>
+
+<div className="content-space-80px"></div>
+
+<div className="one-image-layout">
+<img src="/images/productpages/tenx-offerselect/seller-offerboard-desktop.png" />
+</div>
+
+<div className="content-space-80px"></div>
+
+<div className="one-image-layout">
+<img src="/images/productpages/tenx-offerselect/seller-offerboard-tablet-mobile.png" />
+</div>
+
+
       </ContentWrapper>
     </Wrapper>
   )

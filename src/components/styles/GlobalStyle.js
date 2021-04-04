@@ -296,16 +296,34 @@ padding:4px 4px 4px 8px;
 
 .backHome{
   font-size:14px;
-  padding-top:32px;
+  padding-top:62px;
   display:flex;
   align-items:center;
-  gap:12px;
   color:#ccc;
 
 }
 .backArrow{
 width:24px;
+margin-right:12px;
 }
+
+.backHome:hover{
+
+color:#333;
+
+
+
+.backArrow{
+width:24px;
+margin-right:12px;
+}
+
+
+
+}
+
+
+
 
 ol {
   list-style: none;
@@ -336,7 +354,7 @@ width:100%;
 }
 
 .one-image-layout{
-  max-width:960px;
+ 
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   height:100%;
@@ -357,6 +375,15 @@ width:100%;
   grid-template-columns: 2fr 4fr;
   height:100%;
 
+  gap:32px;
+}
+
+.three-two-image-layout{
+  max-width:1024px;
+  display:grid;
+  grid-template-columns: 3fr 2fr;
+  height:100%;
+  align-items:center;
   gap:32px;
 }
 
