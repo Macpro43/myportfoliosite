@@ -31,6 +31,8 @@ function AuctionAndroidApp() {
         </div>
 
         <div className="project-hero-image" id="auction-android-hero"></div>
+    <div className="project-hero-image" id="auction-android-hero"></div>
+    <div className="project-hero-image" id="auction-android-hero"></div>
 
        
       </ContentWrapper>
