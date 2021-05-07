@@ -175,9 +175,18 @@ function ColoristAppProduct() {
         <div className="content-space-80px"></div>
         <div className="content-space-80px"></div>
 
-        <div className="sectionTitle">
+
+        <div className="sectionBlurb">
           <H1>Daily Appointments</H1>
+
+          <p>
+            After we gathered all of our research the next step was to conduct a
+            5-day design sprint.
+          </p>
         </div>
+
+
+
         <div className="content-space-80px"></div>
 
         <div className="two-image-layout">
@@ -187,9 +196,24 @@ function ColoristAppProduct() {
 
         <div className="content-space-80px"></div>
 
-        <div className="sectionTitle">
+   
+
+
+
+        <div className="sectionBlurb">
           <H1>The Consultation</H1>
+
+          <p>
+            After we gathered all of our research the next step was to conduct a
+            5-day design sprint.
+          </p>
         </div>
+
+
+
+
+
+        
         <div className="content-space-80px"></div>
 
         <div className="two-image-layout">
@@ -199,9 +223,19 @@ function ColoristAppProduct() {
 
         <div className="content-space-80px"></div>
 
-        <div className="sectionTitle">
+   
+
+        <div className="sectionBlurb">
           <H1>The Service</H1>
+
+          <p>
+            After we gathered all of our research the next step was to conduct a
+            5-day design sprint.
+          </p>
         </div>
+
+
+
         <div className="content-space-80px"></div>
 
         <div className="two-image-layout">
@@ -211,9 +245,19 @@ function ColoristAppProduct() {
 
         <div className="content-space-80px"></div>
 
-        <div className="sectionTitle">
+    
+
+        <div className="sectionBlurb">
           <H1>The Summary</H1>
+
+          <p>
+            After we gathered all of our research the next step was to conduct a
+            5-day design sprint.
+          </p>
         </div>
+
+
+
         <div className="content-space-80px"></div>
 
         <div className="two-image-layout">

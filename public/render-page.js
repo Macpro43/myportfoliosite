@@ -111,7 +111,6 @@ const { hot } = __webpack_require__(/*! react-hot-loader/root */ "./node_modules
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": hot(preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js"))),
-  "component---src-pages-auction-tps-page-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/auction-tps-page.js */ "./src/pages/auction-tps-page.js"))),
   "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js")))
   }
 
@@ -32718,99 +32717,6 @@ SEO.propTypes = {
 
 /***/ }),
 
-/***/ "./src/components/sections/AuctionTpsContent.js":
-/*!******************************************************!*\
-  !*** ./src/components/sections/AuctionTpsContent.js ***!
-  \******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-/* harmony import */ var _styles_TextStyles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/TextStyles */ "./src/components/styles/TextStyles.js");
-
-
-
-
-
-function AuctionTpsContent() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Wrapper, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContentWrapper, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "backHome"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "backArrow"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/images/icons/left-arrow.svg"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "BACK TO PROJECTS"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "project-header"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "project-title"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "AUCTION.COM"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "TPS Page")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "project-blurb"
-  }, "Auction.com is the nations leading online real estate marketplace focused exclusively on selling residential bank-owned properties and foreclosure properties.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "project-role"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "MY ROLE:"), " Product Designer"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "project-hero-image",
-    id: "auction-tps-hero"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "content-space-80px"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "three-two-image-layout"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_TextStyles__WEBPACK_IMPORTED_MODULE_3__["H2"], null, "Some Context"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
-    type: "1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Third Party Sales (TPS) is 65% of the business"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "The product team had not established trust with the business"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Our TPS experience did not provide unique value to users"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Banks questioned the value Auction.com added to their revenue"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/images/productpages/auction-tps/tps-context-pie-chart.jpg"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "content-space-80px"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "sectionBlurb"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_TextStyles__WEBPACK_IMPORTED_MODULE_3__["H2"], null, "Our Hypothesis"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "If we offer a better customer experience for TPS, we will increase engagement with users. This would result in increased revenue per each property and salability of that property.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "content-space-80px"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "sectionBlurb"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_TextStyles__WEBPACK_IMPORTED_MODULE_3__["H2"], null, "The Strategy"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "As the lead designer on this project, I aided research and worked side-by-side with designers, engineers, product managers, and business stakeholders in launching the TPS PDP.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "content-space-80px"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "content-space-80px"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "two-three-image-layout"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_TextStyles__WEBPACK_IMPORTED_MODULE_3__["H2"], null, "Design Sprint"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "What we discovered."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
-    type: "1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "New Design structure of the TPS PDP"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Status change notifications"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Initial concept calculation for valuation guidance"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/images/productpages/auction-tps/Tps-design-sprint.jpg"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "content-space-80px"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "content-space-80px"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "two-three-image-layout"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_TextStyles__WEBPACK_IMPORTED_MODULE_3__["H2"], null, "The Results"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_TextStyles__WEBPACK_IMPORTED_MODULE_3__["H4"], null, "Primary Information:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
-    type: "1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Property Photo"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Property Address"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Property Valuation")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_TextStyles__WEBPACK_IMPORTED_MODULE_3__["H4"], null, "Secondary Information:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
-    type: "1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Documents"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Event Details"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/images/productpages/auction-tps/Tps-design-sprint.jpg"
-  }))));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (AuctionTpsContent);
-const Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
-  displayName: "AuctionTpsContent__Wrapper"
-})(["background:#fff;padding-left:24px;padding-right:24px;"]);
-const ContentWrapper = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
-  displayName: "AuctionTpsContent__ContentWrapper"
-})(["position:relative;max-width:1024px;margin:0 auto;"]);
-const SectionTitle = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
-  displayName: "AuctionTpsContent__SectionTitle"
-})(["padding-top:24px;padding-bottom:24px;text-align:center;margin:0 auto;"]);
-
-/***/ }),
-
 /***/ "./src/components/sections/HeroSection.js":
 /*!************************************************!*\
   !*** ./src/components/sections/HeroSection.js ***!
@@ -33413,16 +33319,34 @@ padding:4px 4px 4px 8px;
 
 .backHome{
   font-size:14px;
-  padding-top:32px;
+  padding-top:62px;
   display:flex;
   align-items:center;
-  gap:12px;
   color:#ccc;
 
 }
 .backArrow{
 width:24px;
+margin-right:12px;
 }
+
+.backHome:hover{
+
+color:#333;
+
+
+
+.backArrow{
+width:24px;
+margin-right:12px;
+}
+
+
+
+}
+
+
+
 
 ol {
   list-style: none;
@@ -33453,7 +33377,7 @@ width:100%;
 }
 
 .one-image-layout{
-  max-width:960px;
+ 
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   height:100%;
@@ -33727,35 +33651,6 @@ function NotFoundPage() {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (NotFoundPage);
-
-/***/ }),
-
-/***/ "./src/pages/auction-tps-page.js":
-/*!***************************************!*\
-  !*** ./src/pages/auction-tps-page.js ***!
-  \***************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_layout_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout/layout */ "./src/components/layout/layout.js");
-/* harmony import */ var _components_layout_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout/seo */ "./src/components/layout/seo.js");
-/* harmony import */ var _components_sections_AuctionTpsContent_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/sections/AuctionTpsContent.js */ "./src/components/sections/AuctionTpsContent.js");
-
-
-
-
-
-function AuctionTpsPage() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: ""
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_sections_AuctionTpsContent_js__WEBPACK_IMPORTED_MODULE_3__["default"], null));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (AuctionTpsPage);
 
 /***/ }),
 
