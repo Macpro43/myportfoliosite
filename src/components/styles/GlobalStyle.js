@@ -1,5 +1,5 @@
-import { createGlobalStyle } from "styled-components"
-import { themes } from "./ColorStyles"
+import { createGlobalStyle } from "styled-components";
+import { themes } from "./ColorStyles";
 
 export const GlobalStyle = createGlobalStyle`
 body{
@@ -9,6 +9,12 @@ body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   }
+
+p{
+  line-height: 150%;
+
+}
+
 }
 
 @media only (min-width: 768px){
@@ -35,7 +41,7 @@ right:0px;
 bottom:0;
 width:65%;
 z-index:0;
-M
+
 
 }
 
@@ -426,11 +432,12 @@ color: darkgray;
 padding-top:12px;  
 font-size:28px;
 font-weight:300;
+line-height: 150%;
 }
 
 
 .project-blurb{
-  line-height: 1.2;
+  line-height: 1.5;
 
 }
 
@@ -537,9 +544,9 @@ grid-template-columns: 2fr 3fr;
 width:50%;
 margin-right: auto;
 margin-left: auto;
-line-height: 1.2;
+line-height: 1.5;
 }
 
 
 
-`
+`;
