@@ -180,7 +180,8 @@ function ColoristAppProduct() {
           <H1>Daily Appointments</H1>
 
           <p>
-          Once the Colorist starts their shift, they look at their daily schedule and statuses of their appointments.  
+            After we gathered all of our research the next step was to conduct a
+            5-day design sprint.
           </p>
         </div>
 
@@ -203,13 +204,9 @@ function ColoristAppProduct() {
           <H1>The Consultation</H1>
 
           <p>
-          After the client has checked in, the Colorist starts by taking a "Backie," a picture of their hair to add to their client profile. 
+            After we gathered all of our research the next step was to conduct a
+            5-day design sprint.
           </p>
-<p>
-Then, by adding the hair information, this feeds the machine learning algorithm to help give us the data on the effectiveness of the used hair color. 
-</p>
-
-
         </div>
 
 
@@ -232,7 +229,8 @@ Then, by adding the hair information, this feeds the machine learning algorithm 
           <H1>The Service</H1>
 
           <p>
-          After the consultation, the Colorist adds the recommended hair color and percentages for product inventory control and processing time. 
+            After we gathered all of our research the next step was to conduct a
+            5-day design sprint.
           </p>
         </div>
 
@@ -253,8 +251,8 @@ Then, by adding the hair information, this feeds the machine learning algorithm 
           <H1>The Summary</H1>
 
           <p>
-          After everything has been completed, the Colorist or Assitant starts to check out the client.  
-
+            After we gathered all of our research the next step was to conduct a
+            5-day design sprint.
           </p>
         </div>
 
