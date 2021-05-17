@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
-import { H1, H2, H3, H4, MediumText } from "../styles/TextStyles"
+import { H1, H2, H3, H4, MediumText, BodyMain } from "../styles/TextStyles"
 
 function ColoristAppProduct() {
   return (
@@ -23,10 +23,10 @@ function ColoristAppProduct() {
           </div>
 
           <div className="project-blurb">
-            Madison Reed Color Bar is fast + fabulous hair color, without the
+          <BodyMain>  Madison Reed Color Bar is fast + fabulous hair color, without the
             salon price tag. The colorist app is for the Madison Reed color bars
             for the stylist to enter the client’s information while collecting
-            inventory/product used.
+            inventory/product used.</BodyMain>
             <div className="project-role">
               <span>MY ROLE:</span> Lead Designer
             </div>
@@ -43,12 +43,12 @@ function ColoristAppProduct() {
           <div>
             <H2>The Why</H2>
 
-            <p>
+            <BodyMain>
               After a round of interviews with colorists, we learned that there
               are multiple issues with the stylist app's current version. The
               main problems found were:
-            </p>
-            <p>Who would benefit from this?</p>
+            </BodyMain>
+            <BodyMain>Who would benefit from this?</BodyMain>
             <ol type="1">
               <li>Color Advisor: not working for colorists</li>
               <li>Photos: Clients need more examples</li>
@@ -61,12 +61,20 @@ function ColoristAppProduct() {
         <div className="content-space-80px"></div>
 
         <div className="sectionBlurb">
-          <H2>Divide and Conquer</H2>
+          <H2>My Role</H2>
 
-          <p>
-            Breaking all the components among the designers for weekly sync-ups
-            to quickly update the style guide and developer toolkit.
-          </p>
+          <BodyMain>
+          I was the lead designer on this project from ideation to implementation from September 2018 – January 2019.
+          </BodyMain>
+
+          <BodyMain>
+          In addition, I worked closely with 1 Product Manager and 3 engineers.
+          </BodyMain>
+
+          <BodyMain>
+          The app relaunched in all Color Bars in March 2019.
+          </BodyMain>
+
         </div>
         <div className="content-space-80px"></div>
 
@@ -74,16 +82,16 @@ function ColoristAppProduct() {
           <H2>The Vision</H2>
 
           <H4>THE COLORIST</H4>
-          <p>
+          <BodyMain>
             Breaking all the components among the designers for weekly sync-ups
             to quickly update the style guide and developer toolkit.
-          </p>
+          </BodyMain>
           <H4>THE BUSINESS</H4>
-          <p>
+          <BodyMain>
             Give the business-relevant performance metrics and customer data.
-          </p>
+          </BodyMain>
           <H4>THE CLIENTS</H4>
-          <p>To give the clients useful information.</p>
+          <BodyMain>To give the clients useful information.</BodyMain>
         </div>
         <div className="content-space-80px"></div>
 
@@ -92,10 +100,10 @@ function ColoristAppProduct() {
         <div className="sectionBlurb">
           <H2>The Process</H2>
 
-          <p>
+          <BodyMain>
             After we gathered all of our research the next step was to conduct a
             5-day design sprint.
-          </p>
+          </BodyMain>
         </div>
 
         <div className="content-space-80px"></div>
@@ -110,10 +118,10 @@ function ColoristAppProduct() {
         <div className="sectionBlurb">
           <H2>The Solution</H2>
 
-          <p>
+          <BodyMain>
             After the explorations and our design sprint, we knew colorist
             needed to have:
-          </p>
+          </BodyMain>
 
           <H4>Better data:</H4>
 
@@ -152,37 +160,40 @@ function ColoristAppProduct() {
         <div className="content-space-80px"></div>
         <div className="content-space-80px"></div>
 
-        <div className="two-three-image-layout">
-          <div>
-            <H3>UI Implementation</H3>
+        <div className="sectionBlurb">
+          <H2>UI Implementation</H2>
 
-            <p>
-              This project was a complete redesign not only just the visual UI
+          <BodyMain>
+          This project was a complete redesign not only just the visual UI
               design but the tech stack from Angular to React.
-            </p>
-
-            <p>
+          </BodyMain>
+          
+          <BodyMain>
               This was the beginning of the Color Bar UI System. We wanted to
               create a visual system that could work across all platforms, iOS,
               Android, and Web. The way I describe the direction is that iOS
               design had a baby with Material Design.
-            </p>
-          </div>
-
-          <img src="/images/productpages/madison-reed/iso-1.jpg" />
+            </BodyMain>
         </div>
+
+        <div className="one-image-layout">
+        <img src="/images/productpages/madison-reed/iso-1.jpg" />
+				</div>
+
+
+
 
         <div className="content-space-80px"></div>
         <div className="content-space-80px"></div>
 
 
         <div className="sectionBlurb">
-          <H1>Daily Appointments</H1>
+          <H2>Daily Appointments</H2>
 
-          <p>
+          <BodyMain>
             After we gathered all of our research the next step was to conduct a
             5-day design sprint.
-          </p>
+          </BodyMain>
         </div>
 
 
@@ -201,12 +212,12 @@ function ColoristAppProduct() {
 
 
         <div className="sectionBlurb">
-          <H1>The Consultation</H1>
+          <H2>The Consultation</H2>
 
-          <p>
+          <BodyMain>
             After we gathered all of our research the next step was to conduct a
             5-day design sprint.
-          </p>
+          </BodyMain>
         </div>
 
 
@@ -226,12 +237,12 @@ function ColoristAppProduct() {
    
 
         <div className="sectionBlurb">
-          <H1>The Service</H1>
+          <H2>The Service</H2>
 
-          <p>
+          <BodyMain>
             After we gathered all of our research the next step was to conduct a
             5-day design sprint.
-          </p>
+          </BodyMain>
         </div>
 
 
@@ -248,12 +259,12 @@ function ColoristAppProduct() {
     
 
         <div className="sectionBlurb">
-          <H1>The Summary</H1>
+          <H2>The Summary</H2>
 
-          <p>
+          <BodyMain>
             After we gathered all of our research the next step was to conduct a
             5-day design sprint.
-          </p>
+          </BodyMain>
         </div>
 
 
@@ -279,7 +290,7 @@ const Wrapper = styled.div`
 
 const ContentWrapper = styled.div`
   position: relative;
-  max-width: 1024px;
+  max-width: 1200px;
   margin: 0 auto;
 `
 

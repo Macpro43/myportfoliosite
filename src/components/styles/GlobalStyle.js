@@ -11,6 +11,8 @@ body{
   }
 }
 
+
+
 @media only (min-width: 768px){
 
 .my-portrait{
@@ -35,7 +37,6 @@ right:0px;
 bottom:0;
 width:65%;
 z-index:0;
-M
 
 }
 
@@ -295,7 +296,7 @@ padding:4px 4px 4px 8px;
 
 
 .backHome{
-  font-size:14px;
+  font-size:16px;
   padding-top:62px;
   display:flex;
   align-items:center;
@@ -361,7 +362,7 @@ width:100%;
 }
 
 .two-image-layout{
-  max-width:960px;
+  max-width:1200px;
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   height:100%;
@@ -370,16 +371,15 @@ width:100%;
 }
 
 .two-three-image-layout{
-  max-width:1024px;
+  max-width:1200px;
   display:grid;
   grid-template-columns: 2fr 4fr;
   height:100%;
-
   gap:32px;
 }
 
 .three-two-image-layout{
-  max-width:1024px;
+  max-width:1200px;
   display:grid;
   grid-template-columns: 3fr 2fr;
   height:100%;
@@ -401,7 +401,7 @@ height:80px;
 
 
 .project-header{
-max-width:1024px;
+max-width:1200px;
 display:grid;
 grid-template-columns: 2fr 3fr;
 gap:24px;
@@ -416,16 +416,16 @@ padding: 140px 0px 60px 0px;
 
 
 .project-title h2{
-font-size:16px;
+font-size:18px;
 font-weight:800;
-color: darkgray;
+color:#ccc;
 
 }
 
 .project-title p{
 padding-top:12px;  
-font-size:28px;
-font-weight:300;
+font-size:34px;
+font-weight:800;
 }
 
 
@@ -537,7 +537,7 @@ grid-template-columns: 2fr 3fr;
 width:50%;
 margin-right: auto;
 margin-left: auto;
-line-height: 1.2;
+line-height: 1.5;
 }
 
 

@@ -111,6 +111,7 @@ const { hot } = __webpack_require__(/*! react-hot-loader/root */ "./node_modules
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": hot(preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js"))),
+  "component---src-pages-chimecard-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/chimecard.js */ "./src/pages/chimecard.js"))),
   "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js")))
   }
 
@@ -4110,19 +4111,17 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 var _typeof = __webpack_require__(/*! @babel/runtime/helpers/typeof */ "./node_modules/gatsby/node_modules/@babel/runtime/helpers/typeof.js")["default"];
 
-function _getRequireWildcardCache() {
+function _getRequireWildcardCache(nodeInterop) {
   if (typeof WeakMap !== "function") return null;
-  var cache = new WeakMap();
-
-  _getRequireWildcardCache = function _getRequireWildcardCache() {
-    return cache;
-  };
-
-  return cache;
+  var cacheBabelInterop = new WeakMap();
+  var cacheNodeInterop = new WeakMap();
+  return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) {
+    return nodeInterop ? cacheNodeInterop : cacheBabelInterop;
+  })(nodeInterop);
 }
 
-function _interopRequireWildcard(obj) {
-  if (obj && obj.__esModule) {
+function _interopRequireWildcard(obj, nodeInterop) {
+  if (!nodeInterop && obj && obj.__esModule) {
     return obj;
   }
 
@@ -4132,7 +4131,7 @@ function _interopRequireWildcard(obj) {
     };
   }
 
-  var cache = _getRequireWildcardCache();
+  var cache = _getRequireWildcardCache(nodeInterop);
 
   if (cache && cache.has(obj)) {
     return cache.get(obj);
@@ -4142,7 +4141,7 @@ function _interopRequireWildcard(obj) {
   var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
 
   for (var key in obj) {
-    if (Object.prototype.hasOwnProperty.call(obj, key)) {
+    if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
       var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
 
       if (desc && (desc.get || desc.set)) {
@@ -32717,6 +32716,125 @@ SEO.propTypes = {
 
 /***/ }),
 
+/***/ "./src/components/sections/ChimeCardProduct.js":
+/*!*****************************************************!*\
+  !*** ./src/components/sections/ChimeCardProduct.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
+/* harmony import */ var _styles_TextStyles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/TextStyles */ "./src/components/styles/TextStyles.js");
+
+
+
+
+
+function ChimeCardProduct() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Wrapper, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContentWrapper, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "backHome"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "backArrow"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/images/icons/left-arrow.svg"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "BACK TO PROJECTS"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-header"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-title"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "CHIMECARD"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Web . iOS . Android")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-blurb"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_TextStyles__WEBPACK_IMPORTED_MODULE_3__["BodyMain"], null, "Chimecard, which is now Chime, is the bank account that helps you lead a healthier financial life and automate your savings. I designed and released the products for iOS, Android, and the Web experience."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-role"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "MY ROLE:"), " UI/UX Designer"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-hero-image",
+    id: "chimecard-hero"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "content-space-80px"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sectionBlurb"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_TextStyles__WEBPACK_IMPORTED_MODULE_3__["H2"], null, "The Problem"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "One of the main challenges we faced was an outdated User Interface and an inconsistent User Experience for the iOS MVP and to start strategizing for the Android App.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "content-space-80px"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one-image-layout"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/images/productpages/chimecard/meet-the-ui.jpg"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "content-space-80px"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sectionBlurb"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_TextStyles__WEBPACK_IMPORTED_MODULE_3__["H2"], null, "Process & Strategy"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "After joining Chime, I received the in-process designs created by a development agency as the Lead Designer. I realized that the current direction was already outdated by today's standards of modern mobile user experiences. I needed a fast and straightforward way to approach the UX inventory.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "content-space-80px"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one-image-layout"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/images/productpages/chimecard/a-process-ux.jpg"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "content-space-80px"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sectionBlurb"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_TextStyles__WEBPACK_IMPORTED_MODULE_3__["H2"], null, "The New Chimecard"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "After working through user flows and features came the User Interface Design for both iOS and Android. It was inspiring to bring continuity to both platforms.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "content-space-80px"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one-image-layout"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/images/productpages/chimecard/new-ui.jpg"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "content-space-80px"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one-image-layout"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/images/productpages/chimecard/offers-ios.jpg"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one-image-layout"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/images/productpages/chimecard/offers-android.jpg"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one-image-layout"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/images/productpages/chimecard/account-funding-ios.jpg"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one-image-layout"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/images/productpages/chimecard/account-funding-android.jpg"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one-image-layout"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/images/productpages/chimecard/transaction-icons.jpg"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "content-space-80px"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sectionBlurb"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_TextStyles__WEBPACK_IMPORTED_MODULE_3__["H2"], null, "In-App Communication"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The direction that I took was to create a familiar chat experience for the Chimecard helpdesk. Other than creating a generic help email system, we wanted to make the experience more human.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "content-space-80px"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sectionBlurb"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_TextStyles__WEBPACK_IMPORTED_MODULE_3__["H2"], null, "Chimecard Homepage")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one-image-layout"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/images/productpages/chimecard/one-of-many-landing-pages-scaled.jpg"
+  }))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ChimeCardProduct);
+const Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
+  displayName: "ChimeCardProduct__Wrapper"
+})(["background:#fff;padding-left:24px;padding-right:24px;"]);
+const ContentWrapper = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
+  displayName: "ChimeCardProduct__ContentWrapper"
+})(["position:relative;max-width:1024px;margin:0 auto;"]);
+const SectionTitle = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
+  displayName: "ChimeCardProduct__SectionTitle"
+})(["padding-top:24px;padding-bottom:24px;text-align:center;margin:0 auto;"]);
+
+/***/ }),
+
 /***/ "./src/components/sections/HeroSection.js":
 /*!************************************************!*\
   !*** ./src/components/sections/HeroSection.js ***!
@@ -33651,6 +33769,35 @@ function NotFoundPage() {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (NotFoundPage);
+
+/***/ }),
+
+/***/ "./src/pages/chimecard.js":
+/*!********************************!*\
+  !*** ./src/pages/chimecard.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_layout_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout/layout */ "./src/components/layout/layout.js");
+/* harmony import */ var _components_layout_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout/seo */ "./src/components/layout/seo.js");
+/* harmony import */ var _components_sections_ChimeCardProduct__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/sections/ChimeCardProduct */ "./src/components/sections/ChimeCardProduct.js");
+
+
+
+
+
+function ChimeCard() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: ""
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_sections_ChimeCardProduct__WEBPACK_IMPORTED_MODULE_3__["default"], null));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ChimeCard);
 
 /***/ }),
 

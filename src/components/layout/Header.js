@@ -34,7 +34,7 @@ const Wrapper = styled.div`
 `
 
 const NavWrapper = styled.div`
-  max-width: 1024px;
+  max-width: 1200px;
   height: 54px;
   display: grid;
   grid-template-columns: 180px auto;

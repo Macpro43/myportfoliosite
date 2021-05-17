@@ -48,7 +48,7 @@ const Wrapper = styled.div`
 
 const ContentWrapper = styled.div`
   position: relative;
-  max-width: 1024px;
+  max-width: 1200px;
   margin: 0 auto;
 `
 
