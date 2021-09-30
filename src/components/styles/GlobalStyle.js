@@ -1,10 +1,10 @@
-import { createGlobalStyle } from "styled-components"
-import { themes } from "./ColorStyles"
+import { createGlobalStyle } from "styled-components";
+import { themes } from "./ColorStyles";
 
 export const GlobalStyle = createGlobalStyle`
 body{
   background: ${themes.light.backgroundColor};  
-@media (prefers-color-scheme:dark){
+  @media (prefers-color-scheme:dark){
   background:${themes.dark.backgroundColor};
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -13,36 +13,95 @@ body{
 
 
 
-@media only (min-width: 768px){
 
-.my-portrait{
+
+
+
+
+
+
+@media only screen and (min-device-width : 768px){
+
+.my_portrait {
 
 position:absolute;
 right:0;
-bottom:0;
+bottom:0px;
 width:56%;
 z-index:0;
 
 }
 
-}
 
-@media (min-width: 320px) {
-
-
-  .my-portrait{
-
-position:absolute;
-right:0px;
-bottom:0;
-width:65%;
-z-index:0;
 
 }
 
+@media only screen and (max-device-width: 320px) {
+
+
+.my_portrait {
+ 
+  width:80%;
+  bottom: -15px;
+  right: 0;
+  z-index:0;
+}
+
+.bubble_text{
+
+font-size: 18px;
+
+
+}
 
 
 
+
+}
+
+
+
+
+.speechbubble{
+
+position: relative;
+border:solid 3px #000;
+background-color: #fff;
+top:100px;
+  border-radius:12px;
+  margin:.5em;
+  padding: 3.5em 3em;
+  height:300px;
+  display:inline-block;
+
+
+}
+
+
+.speechbubble:before {
+  border:solid 12px transparent;
+  border-left:solid 12px #000;
+  border-top:solid 12px #000;
+  bottom:-24px;
+  content:"";
+  height:0;
+  right:23px;
+  position:absolute;
+  transform:skew(45deg);
+  width:0;
+}
+
+.speechbubble:after {
+  border:solid 12px transparent;
+  border-left:solid 12px #fff;
+  border-top:solid 12px #fff;
+  bottom:-17px;
+  content:"";
+  height:0;
+  right:26px;
+  position:absolute;
+  transform:skew(45deg);
+  width:0;
 }
 
 
@@ -388,7 +447,7 @@ width:100%;
 }
 
 
-.2fr-3fr-image-layout{}
+
 
 
 .content-space-80px{
@@ -405,7 +464,6 @@ max-width:1200px;
 display:grid;
 grid-template-columns: 2fr 3fr;
 gap:24px;
-
 padding: 140px 0px 60px 0px;
 
 }
@@ -543,3 +601,8 @@ line-height: 1.5;
 
 
 `
+
+
+
+
+

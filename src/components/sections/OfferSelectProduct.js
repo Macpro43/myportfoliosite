@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
-import { H1, H2, H3, H4, MediumText } from "../styles/TextStyles"
+import { H1, H2, H3, H4, MediumText, BodyMain } from "../styles/TextStyles"
 
 function OfferSelectProduct() {
   return (
@@ -23,9 +23,12 @@ function OfferSelectProduct() {
           </div>
 
           <div className="project-blurb">
-          Ten-X Commercial is the CRE marketplace that is a force multiplier for sellers, buyers, and brokers. Ten-X precision-matches assets accelerate close rates and streamline the entire transaction process with more than $50 billion in sales and increasing daily.
-          <br></br>
+<BodyMain>       
 Offer Select was a new Ten-X platform to make an offer and purchase commercial real estate online.
+<br></br>
+<br></br>
+Ten-X Commercial is the CRE marketplace that is a force multiplier for sellers, buyers, and brokers. Ten-X precision-matches assets, accelerate closing rates, and streamlines the entire transaction process with more than $50 billion in sales and increasing daily.
+</BodyMain>  
             <div className="project-role">
               <span>MY ROLE:</span> Product Designer
             </div>
@@ -37,10 +40,13 @@ Offer Select was a new Ten-X platform to make an offer and purchase commercial r
         <div className="content-space-80px"></div>
 
         <div className="sectionBlurb">
-					<H2>The Problem</H2>
-					<p>
-          For Ten-X, we created a brand new way for our users to purchase commercial real estate online. The traditional auction process was initially taken from auction.com and wanted to bring a better connection between the buyers and sellers. A buyer can create an offer and negotiate with the seller to have a competitive advantage by having the highest offer.
-					</p>
+					<H2>The Challenge</H2>
+					<BodyMain>
+          For Ten-X, we created a brand new way for our users to purchase commercial real estate online. The traditional auction process was initially taken from auction.com and wanted to bring a better connection between the buyers and sellers. 
+          <br></br>
+          <br></br>
+          A buyer can create an offer and negotiate with the seller to have a competitive advantage by not just having the highest offer.
+					</BodyMain>
 				</div>
         <div className="content-space-80px"></div>
        
@@ -50,9 +56,9 @@ Offer Select was a new Ten-X platform to make an offer and purchase commercial r
 
         <div className="sectionBlurb">
 					<H2>Vision & Strategy</H2>
-					<p>
-          My primary role for the Offer Select release was to back up the UX designer and apply our visual language and “responsive” to the current product direction.
-					</p>
+					<BodyMain>
+          My primary role for the Offer Select release was to back up the UX designer, apply our visual language, and "responsify" the current product direction.
+					</BodyMain>
 				</div>
 
         <div className="content-space-80px"></div>
@@ -104,7 +110,7 @@ Offer Select was a new Ten-X platform to make an offer and purchase commercial r
 <img src="/images/productpages/tenx-offerselect/seller-offerboard-tablet-mobile.png" />
 </div>
 
-
+<div className="content-space-80px"></div>
       </ContentWrapper>
     </Wrapper>
   )

@@ -38,13 +38,11 @@ function ChimeCardProduct() {
 				<div className="content-space-80px"></div>
 
 				<div className="sectionBlurb">
-					<H2>The Problem</H2>
+					<H2>The Challenge</H2>
 
-					<p>
-						One of the main challenges we faced was an outdated User Interface
-						and an inconsistent User Experience for the iOS MVP and to start
-						strategizing for the Android App.
-					</p>
+					<BodyMain>
+					One of the main challenges we faced was an outdated UI language and an inconsistent User Experience for the iOS MVP and strategizing for the Android App.
+					</BodyMain>
 				</div>
 
 				<div className="content-space-80px"></div>
@@ -58,13 +56,9 @@ function ChimeCardProduct() {
 				<div className="sectionBlurb">
 					<H2>Process & Strategy</H2>
 
-					<p>
-						After joining Chime, I received the in-process designs created by a
-						development agency as the Lead Designer. I realized that the current
-						direction was already outdated by today's standards of modern mobile
-						user experiences. I needed a fast and straightforward way to
-						approach the UX inventory.
-					</p>
+					<BodyMain>
+					After joining Chime, I received the in-process designs created by a development agency as the Lead Designer. I realized that the current direction was already outdated by today's standards of modern mobile user experiences. I needed a fast and straightforward way to approach the UX inventory.
+					</BodyMain>
 				</div>
 
 				<div className="content-space-80px"></div>
@@ -80,9 +74,9 @@ function ChimeCardProduct() {
         <div className="sectionBlurb">
 					<H2>The New Chimecard</H2>
 
-					<p>
+					<BodyMain>
           After working through user flows and features came the User Interface Design for both iOS and Android. It was inspiring to bring continuity to both platforms.
-					</p>
+					</BodyMain>
 				</div>
 
 
@@ -132,16 +126,13 @@ function ChimeCardProduct() {
 
         <div className="content-space-80px"></div>
 
-
-
-        <div className="sectionBlurb">
-					<H2>Chimecard Homepage</H2>				
-				</div>
-
-
-        <div className="one-image-layout">
-  <img src="/images/productpages/chimecard/one-of-many-landing-pages-scaled.jpg" />
+		<div className="one-image-layout">
+  <img src="/images/productpages/chimecard/messaging-ios.jpg" />
 </div>
+
+
+<div className="content-space-80px"></div>
+
 
 			</ContentWrapper>
 		</Wrapper>

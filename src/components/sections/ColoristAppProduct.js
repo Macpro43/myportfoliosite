@@ -23,12 +23,10 @@ function ColoristAppProduct() {
           </div>
 
           <div className="project-blurb">
-          <BodyMain>  Madison Reed Color Bar is fast + fabulous hair color, without the
-            salon price tag. The colorist app is for the Madison Reed color bars
-            for the stylist to enter the client’s information while collecting
-            inventory/product used.</BodyMain>
+          <BodyMain>  Madison Reed Color Bar is fast + fabulous hair color, without the salon price tag. The colorist app is for the Madison Reed color bars for the stylist to enter the client's/customers information while collecting inventory/product used.
+</BodyMain>
             <div className="project-role">
-              <span>MY ROLE:</span> Lead Designer
+              <span>MY ROLE:</span> Product Designer
             </div>
           </div>
         </div>
@@ -48,23 +46,26 @@ function ColoristAppProduct() {
               are multiple issues with the stylist app's current version. The
               main problems found were:
             </BodyMain>
-            <BodyMain>Who would benefit from this?</BodyMain>
+
+            
+            <BodyMain></BodyMain>
             <ol type="1">
-              <li>Color Advisor: not working for colorists</li>
-              <li>Photos: Clients need more examples</li>
-              <li>UX: Complicated flow and outdated codebase</li>
+              <li>Color Advisor: A very confusing experience and doesnt work most of the time. The colorists sometimes don't even use the app.</li>
+              <li>Photos: Clients needed more examples of hair color on real people.</li>
+              <li>UX: Complicated flow and outdated codebase.</li>
             </ol>
           </div>
 
           <img src="/images/productpages/madison-reed/Old-stylist-app.png" />
         </div>
         <div className="content-space-80px"></div>
+        <div className="content-space-80px"></div>
 
         <div className="sectionBlurb">
           <H2>My Role</H2>
 
           <BodyMain>
-          I was the lead designer on this project from ideation to implementation from September 2018 – January 2019.
+          I was the main designer on this project from ideation to implementation from September 2018 – January 2019.
           </BodyMain>
 
           <BodyMain>
@@ -77,21 +78,20 @@ function ColoristAppProduct() {
 
         </div>
         <div className="content-space-80px"></div>
-
+ <div className="content-space-80px"></div>
         <div className="sectionBlurb">
           <H2>The Vision</H2>
 
-          <H4>THE COLORIST</H4>
+          <H4>The Colorist</H4>
           <BodyMain>
-            Breaking all the components among the designers for weekly sync-ups
-            to quickly update the style guide and developer toolkit.
+          We want to empower the colorists to consistently deliver high-quality results by seamlessly giving them the correct information.
           </BodyMain>
-          <H4>THE BUSINESS</H4>
+          <H4>The Business</H4>
           <BodyMain>
             Give the business-relevant performance metrics and customer data.
           </BodyMain>
-          <H4>THE CLIENTS</H4>
-          <BodyMain>To give the clients useful information.</BodyMain>
+          <H4>The Clients</H4>
+          <BodyMain>To give the clients helpful and relevant information.</BodyMain>
         </div>
         <div className="content-space-80px"></div>
 
@@ -101,8 +101,8 @@ function ColoristAppProduct() {
           <H2>The Process</H2>
 
           <BodyMain>
-            After we gathered all of our research the next step was to conduct a
-            5-day design sprint.
+          After we gathered all of our research, the next step was to conduct a 5-day design sprint.
+
           </BodyMain>
         </div>
 
@@ -116,21 +116,26 @@ function ColoristAppProduct() {
         <div className="content-space-80px"></div>
 
         <div className="sectionBlurb">
-          <H2>The Solution</H2>
+          <H2>Mapping out the current and proposed experience. </H2>
 
           <BodyMain>
-            After the explorations and our design sprint, we knew colorist
-            needed to have:
+          The product manager was gathering the requirements for this project well before I started. So we were able to map out the current app experience, and we were able to pinpoint areas of frustration and replace specific steps for an optimized experience.  
+          
           </BodyMain>
+
+          <div className="content-space-80px"></div>
+
+<H3>What came out of the mapping session? </H3>
+<H4>We needed to have:</H4>
 
           <H4>Better data:</H4>
 
           <ul>
             <li>
-              Consistent and accurate customer hair data using Machine Learning
+            Consistent and accurate customer hair data using Machine Learning
             </li>
             <li>Better SLA data for labor efficiency tracking</li>
-            <li>Tracking of customer’s desired result</li>
+            <li>Tracking of customer's desired result</li>
             <li>Standardized formula input</li>
           </ul>
 
@@ -161,20 +166,22 @@ function ColoristAppProduct() {
         <div className="content-space-80px"></div>
 
         <div className="sectionBlurb">
-          <H2>UI Implementation</H2>
+          <H2>UI/Structure</H2>
 
           <BodyMain>
-          This project was a complete redesign not only just the visual UI
-              design but the tech stack from Angular to React.
+          This project was completely redesigned from the UI, UX, and tech stack from Angular to React/React Native.
+          <br></br>  
+          <br></br>     
+          We wanted to create a design system to be a crossfunctional design language without focusing too much on particular design guidelines to be consistent between web, desktop applications, iOS, and Android.
+          <br></br>  
+          <br></br> 
+          The way we were thinking about it is that if iOS had a baby with Material Design. 
           </BodyMain>
           
-          <BodyMain>
-              This was the beginning of the Color Bar UI System. We wanted to
-              create a visual system that could work across all platforms, iOS,
-              Android, and Web. The way I describe the direction is that iOS
-              design had a baby with Material Design.
-            </BodyMain>
+          
         </div>
+
+        <div className="content-space-80px"></div>
 
         <div className="one-image-layout">
         <img src="/images/productpages/madison-reed/iso-1.jpg" />
@@ -191,8 +198,7 @@ function ColoristAppProduct() {
           <H2>Daily Appointments</H2>
 
           <BodyMain>
-            After we gathered all of our research the next step was to conduct a
-            5-day design sprint.
+          Check your daily schedule, and understand what's going on for the day in the color bar. 
           </BodyMain>
         </div>
 
@@ -215,8 +221,7 @@ function ColoristAppProduct() {
           <H2>The Consultation</H2>
 
           <BodyMain>
-            After we gathered all of our research the next step was to conduct a
-            5-day design sprint.
+          Start the appointment off right, upload the backie, put in the customer's hair data as you're talking to the customer to understand a little more about their hair profile.  
           </BodyMain>
         </div>
 
@@ -240,8 +245,8 @@ function ColoristAppProduct() {
           <H2>The Service</H2>
 
           <BodyMain>
-            After we gathered all of our research the next step was to conduct a
-            5-day design sprint.
+          Select what you will be using for the visit and input the %of color used and set the timer.  
+
           </BodyMain>
         </div>
 
@@ -262,8 +267,7 @@ function ColoristAppProduct() {
           <H2>The Summary</H2>
 
           <BodyMain>
-            After we gathered all of our research the next step was to conduct a
-            5-day design sprint.
+          Review the appointment, add some additional products, and finish the appointment with payment and gratuity for the colorist. 
           </BodyMain>
         </div>
 
@@ -275,6 +279,9 @@ function ColoristAppProduct() {
           <img src="/images/productpages/madison-reed/summary-1.jpg" />
           <img src="/images/productpages/madison-reed/summary-2.jpg" />
         </div>
+
+        <div className="content-space-80px"></div>
+
       </ContentWrapper>
     </Wrapper>
   )

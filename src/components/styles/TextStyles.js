@@ -9,7 +9,8 @@ line-height:250%;
 export const H2 = styled.h2`
   font-weight: bold;
   font-size: 40px;
-  line-height:250%;
+  line-height:normal;
+  padding-bottom:40px;
 
   
 `

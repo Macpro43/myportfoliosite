@@ -24,9 +24,7 @@ function MovotoProduct() {
 
 					<div className="project-blurb">
 						<BodyMain>
-							Movoto is a full-service real estate brokerage that provides
-							customers with search tools and information on top agents. One of
-							my first projects for Movoto was the mobile website.
+						Movoto is a full-service real estate brokerage that provides customers with search tools and information on top agents. One of my first projects for Movoto was to design the mobile experiences. 
 						</BodyMain>
 						<div className="project-role">
 							<span>MY ROLE:</span> UI/UX Designer
@@ -39,14 +37,10 @@ function MovotoProduct() {
 				<div className="content-space-80px"></div>
 
 				<div className="sectionBlurb">
-					<H2>The Problem</H2>
+					<H2>The Challenge</H2>
 
 					<BodyMain>
-						The primary goal of this project was to bring a robust mobile design
-						aesthetic to the Movoto product, mainly to their direct search and
-						discovery products. As the UI Designer on this project, I
-						facilitated creating their UI Toolkit and mobile design direction
-						for mobile web and native mobile products.
+					The primary goal of this project was to bring a robust mobile design aesthetic to the Movoto product, mainly to their primary search and discovery products. As the UI/UX Designer on this project, I facilitated their UI Toolkit and mobile design direction for mobile web and native mobile products.
 					</BodyMain>
 				</div>
 
@@ -61,12 +55,9 @@ function MovotoProduct() {
 				<div className="sectionBlurb">
 					<H2>The UI Kit</H2>
 
-					<p>
-						Since we were moving extremely fast, I created a photoshop file with
-						the designs for the front-end developers. If they needed a specific
-						design asset, they would have all of them in one place to keep a
-						consistent look and feel.
-					</p>
+					<BodyMain>
+					Since we were moving extremely fast, I created a photoshop file and redline file with the specs for the front-end developers. If they needed a specific design asset, they would have all of them in one place to keep a consistent look and feel.
+					</BodyMain>
 				</div>
 
 				<div className="content-space-80px"></div>
